@@ -11,6 +11,7 @@ The backlog is as folows:
 ### Discussion
 
 - What do you think about the [`naive()`](https://github.com/HOOQsters/hello-csv/blob/master/parse-callback.js#L11) function?
+- naive function is using callback which is you make it work, but it's ugly because you'll make long code pyramid tree, but we can do it cleaner and much more stable code using async and promise
 - Please take a peek at the [parse-async.js](https://github.com/HOOQsters/hello-csv/blob/master/parse-async.js), [parse-stream.js](https://github.com/HOOQsters/hello-csv/blob/master/parse-stream.js) and [parse-promise.js](https://github.com/HOOQsters/hello-csv/blob/master/parse-promise.js), then give your best gift to us! (Yes, sending us a [proper PR](https://help.github.com/articles/creating-a-pull-request/))
 
 **Constraint**: Please use async API only e.g. `fs.readFile` **NOT** `fs.readFileSync` for reading files.
